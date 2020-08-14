@@ -1,0 +1,21 @@
+﻿<Window x:Class="MovieStore.RegisterForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MovieStore"
+        mc:Ignorable="d"
+        Title="Register Window" Height="227.374" Width="260.506" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid Margin="0,0,4,-1" Background="White">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="323*"/>
+            <ColumnDefinition Width="20*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="What is your name?" HorizontalAlignment="Left" Margin="50,10,0,0" VerticalAlignment="Top" Foreground="Black" Height="26" Width="163" FontWeight="Bold"/>
+        <TextBox x:Name="txtUserName" HorizontalAlignment="Left" Height="23" Margin="50,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Foreground="Black" Background="White" FontWeight="Bold"/>
+        <Label Content="Enter Suitable Password" HorizontalAlignment="Left" Margin="50,66,0,0" VerticalAlignment="Top" Foreground="Black" Height="26" Width="144" FontWeight="Bold"/>
+        <TextBox x:Name="txtPassword" HorizontalAlignment="Left" Height="23" Margin="50,97,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Foreground="Black" Background="White" FontWeight="Bold"/>
+        <Button x:Name="Register" Content="Register Now" HorizontalAlignment="Left" Margin="129,140,0,0" VerticalAlignment="Top" Width="81" Click="Register_Click" Foreground="Black" Background="#FF86EEFF" Height="23"/>
+
+    </Grid>
+</Window>
